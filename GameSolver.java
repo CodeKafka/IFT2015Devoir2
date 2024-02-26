@@ -263,38 +263,7 @@ public void resoudreChaqueGrille(String nomDuFichier) {
         }
     }   
     public static void main(String[] args) {
-        // Test de la classe FilePersonalisee
-        // FilePersonalisee file = new FilePersonalisee(2);
-        // file.enqueue(1);
-        // file.enqueue(2);
-        // System.out.println("FilePersonalisee size: " + file.size()); // Attendu: 2
-                                                    
 
-
-        // Test de la classe ArrayStack
-        // ArrayStack pile = new ArrayStack(5);
-        // pile.push(1);
-        // pile.push(2);
-        // System.out.println("Top de la pile: " + pile.top()); // Attendu: 2
-        // System.out.println(pile.toString()); // Attendu: Contenu de la pile: [1, 2]
-        // System.out.println("Capacite de la pile: " + pile.capacite); // Attendu: 5                                            
-
-        // Vérifier isEmpty et pop
-        // pile.pop();
-        // pile.pop();
-        // System.out.println("La pile est vide: " + pile.isEmpty()); // Attendu: true
-        // pile.push(1);
-        // pile.push(2);
-        // pile.push(3);
-        // pile.push(4);
-        // pile.push(5);
-        // pile.push(6);
-        // pile.push(7);
-        // pile.push(8);
-        // System.out.println("Top de la pile: " + pile.top()); // Attendu: 8
-        // System.out.println(pile.toString()); // Attendu: Contenu de la pile: [1, 2, 3, 4, 5, 6, 7, 8]
-        // System.out.println("Capacite de la pile: " + pile.capacite); // Attendu: 10                                                             
-        //
         GameSolver gameSolver = new GameSolver();
         gameSolver.resoudreChaqueGrille("sample.txt");
 
